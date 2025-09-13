@@ -80,8 +80,8 @@ compatibility_date = "2024-11-11"
 
     [env.production.vars]
         ENVIRONMENT = "production"
-        URL_SERVICE_DOH = "https://doh.sb"
-        URL_SERVICE_JSON = "https://doh.sb"
+        URL_SERVICE_DOH = "https://dns.adguard.com"
+        URL_SERVICE_JSON = "https://dns.adguard.com"
         URL_SERVICE_SUBDOMAIN = "dns-query"
         THROTTLE_DAILY_LIMIT = 2000
 
@@ -115,8 +115,8 @@ local_protocol = "https"
 
     [env.dev.vars]
         ENVIRONMENT = "dev"
-        URL_SERVICE_DOH = "https://doh.sb"
-        URL_SERVICE_JSON = "https://doh.sb"
+        URL_SERVICE_DOH = "https://dns.adguard.com"
+        URL_SERVICE_JSON = "https://dns.adguard.com"
         URL_SERVICE_SUBDOMAIN = "dns-query"
         THROTTLE_DAILY_LIMIT = 2000
 
